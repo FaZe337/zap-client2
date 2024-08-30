@@ -4,21 +4,21 @@
 // GameVersion = v3.0.77.28
  
 std::string CheatVersion = "Version 1.1.4";
-std::string GameVersion = "v3.0.79.44"; // [Miscellaneous]->GameVersion
+std::string GameVersion = "v3.0.79.48"; // [Miscellaneous]->GameVersion
  
 // Core
 constexpr long OFF_REGION = 0x140000000; // [Static]->Region
-constexpr long OFF_LEVEL = 0x17ec544; // [Miscellaneous]->LevelName
-constexpr long OFF_LOCAL_PLAYER = 0x23e91f8; // [Miscellaneous]->LocalPlayer
-constexpr long OFF_ENTITY_LIST = 0x1f15f88; // [Miscellaneous]->cl_entitylist
+constexpr long OFF_LEVEL = 0x182c554; // [Miscellaneous]->LevelName
+constexpr long OFF_LOCAL_PLAYER = 0x2429238; // [Miscellaneous]->LocalPlayer
+constexpr long OFF_ENTITY_LIST = 0x1f55fb8; // [Miscellaneous]->cl_entitylist
 constexpr long OFF_NAME_INDEX = 0x38; // NameIndex
-constexpr long OFF_NAME_LIST = 0xd388450; // [Miscellaneous]->NameList
-constexpr long OFF_GAMEMODE = 0x02421250; // [ConVars]->mp_gamemode
+constexpr long OFF_NAME_LIST = 0xd3c9f50; // [Miscellaneous]->NameList
+constexpr long OFF_GAMEMODE = 0x2461290; // [ConVars]->mp_gamemode
 constexpr long OFF_SQUAD_ID = 0x0344; // [RecvTable.DT_BaseEntity]->m_squadID
 constexpr long OFF_GLOBAL_VARS = 0x17ec040; // [Miscellaneous]->GlobalVars
  
 // HUD
-constexpr long OFF_VIEWRENDER = 0x769b558; // [Miscellaneous]->ViewRender
+constexpr long OFF_VIEWRENDER = 0x76dd058; // [Miscellaneous]->ViewRender
 constexpr long OFF_VIEWMATRIX = 0x11a350; // [Miscellaneous]->ViewMatrix
  
 // Buttons
@@ -81,8 +81,8 @@ constexpr long OFF_HIGHLIGHT_TYPE_SIZE = 0x34;
 constexpr long OFF_GLOW_THROUGH_WALL = 0x26c; //[DT_HighlightSettings].?
 constexpr long OFF_GLOW_FIX = 0x278;
 constexpr long OFF_GLOW_HIGHLIGHT_ID = 0x29C; //[DT_HighlightSettings].m_highlightServerActiveStates
-constexpr long OFF_GLOW_HIGHLIGHTS = 0xb13c6a0; // [Miscellaneous]->HighlightSettings
-constexpr long OFF_GLOW_ENABLE = 0x26c; //
+constexpr long OFF_GLOW_HIGHLIGHTS = 0xb17e1a0; // [Miscellaneous]->HighlightSettings
+constexpr long OFF_GLOW_ENABLE = 0x27c; // ? unused
  
 // Item
 constexpr long OFF_CUSTOM_SCRIPT_INT = 0x1568; // [RecvTable.DT_PropSurvival]->m_customScriptInt
